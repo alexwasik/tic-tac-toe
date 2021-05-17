@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="rps.css">
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="radio-button-group">
+        <input type="radio" value="rock" id="rock" name="radioSelection" checked>
+        <label for="rock">Rock</label>
+
+        <input type="radio" value="paper" id="paper" name="radioSelection">
+        <label for="paper">Paper</label>
+        
+        <input type="radio" value="scissors" id="scissors" name="radioSelection">
+        <label for="scissors">Scissors</label>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <button class="btn" id="play">Play</button>
+        <div class="plays"></div>
+        <div class="playResult"></div>
+      </div>
+    </div>
+  </section>
+  <script src="rps.js"></script>
+</body>
+</html>

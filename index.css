@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: medium;
+  color: rgb(102, 123, 241);
+}
+
+li {
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 0;
+}
